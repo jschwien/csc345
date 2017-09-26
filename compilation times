@@ -1,155 +1,126 @@
 TAIL REC FIBONACCI 10
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
 ;   0.0 seconds of real time
 ;   0.0 seconds of user run time
 ;   0.0 seconds of system run time
-;   484,894 CPU cycles
+;   1,875 CPU cycles
 ;   0 page faults and
-;   30,064 bytes consed.
+;   0 bytes consed.
 ; 
 FIBONACCI 10
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
 ;   0.0 seconds of real time
 ;   0.0 seconds of user run time
 ;   0.0 seconds of system run time
-;   962,629 CPU cycles
+;   7,421 CPU cycles
 ;   0 page faults and
-;   38,680 bytes consed.
+;   0 bytes consed.
 ; 
 =======================================================
 TAIL REC FIBONACCI 15
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
 ;   0.0 seconds of real time
 ;   0.0 seconds of user run time
 ;   0.0 seconds of system run time
-;   80,628 CPU cycles
+;   1,840 CPU cycles
 ;   0 page faults and
-;   1,936 bytes consed.
+;   0 bytes consed.
 ; 
 FIBONACCI 15
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
-;   0.01 seconds of real time
-;   0.004 seconds of user run time
+;   0.0 seconds of real time
+;   0.0 seconds of user run time
 ;   0.0 seconds of system run time
-;   5,836,341 CPU cycles
+;   52,608 CPU cycles
 ;   0 page faults and
-;   157,176 bytes consed.
+;   0 bytes consed.
 ; 
 =======================================================
 TAIL REC FIBONACCI 20
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
 ;   0.0 seconds of real time
 ;   0.0 seconds of user run time
 ;   0.0 seconds of system run time
-;   103,156 CPU cycles
+;   1,703 CPU cycles
 ;   0 page faults and
-;   2,656 bytes consed.
+;   0 bytes consed.
 ; 
 FIBONACCI 20
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
-;   0.06 seconds of real time
-;   0.06 seconds of user run time
-;   0.008 seconds of system run time
-;   219,080,155 CPU cycles
-;   [Run times include 0.05 seconds GC run time]
+;   0.0 seconds of real time
+;   0.0 seconds of user run time
+;   0.0 seconds of system run time
+;   566,823 CPU cycles
 ;   0 page faults and
-;   1,744,600 bytes consed.
+;   0 bytes consed.
 ; 
 =======================================================
 TAIL REC FIBONACCI 25
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
 ;   0.0 seconds of real time
 ;   0.0 seconds of user run time
 ;   0.0 seconds of system run time
-;   142,865 CPU cycles
+;   1,876 CPU cycles
 ;   0 page faults and
-;   3,376 bytes consed.
+;   0 bytes consed.
 ; 
 FIBONACCI 25
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
-;   0.26 seconds of real time
-;   0.252 seconds of user run time
+;   0.0 seconds of real time
+;   0.004 seconds of user run time
 ;   0.0 seconds of system run time
-;   805,632,471 CPU cycles
-;   [Run times include 0.04 seconds GC run time]
+;   7,986,173 CPU cycles
 ;   0 page faults and
-;   19,348,104 bytes consed.
+;   0 bytes consed.
 ; 
 =======================================================
 TAIL REC FIBONACCI 30
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
 ;   0.0 seconds of real time
 ;   0.0 seconds of user run time
 ;   0.0 seconds of system run time
-;   172,733 CPU cycles
+;   2,604 CPU cycles
 ;   0 page faults and
-;   4,160 bytes consed.
+;   0 bytes consed.
 ; 
 FIBONACCI 30
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
-;   2.47 seconds of real time
-;   2.468 seconds of user run time
-;   0.008 seconds of system run time
-;   7,900,998,758 CPU cycles
-;   [Run times include 0.07 seconds GC run time]
+;   0.03 seconds of real time
+;   0.02 seconds of user run time
+;   0.0 seconds of system run time
+;   69,593,775 CPU cycles
 ;   0 page faults and
-;   214,575,640 bytes consed.
+;   0 bytes consed.
 ; 
 =======================================================
 TAIL REC FIBONACCI 35
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
 
 ; Evaluation took:
 ;   0.0 seconds of real time
 ;   0.0 seconds of user run time
 ;   0.0 seconds of system run time
-;   196,969 CPU cycles
+;   3,290 CPU cycles
 ;   0 page faults and
-;   4,816 bytes consed.
+;   0 bytes consed.
 ; 
 FIBONACCI 35
-Warning:  TIME form in a non-null environment, forced to interpret.
-Compiling entire form will produce more accurate times.
-; No value
+
 ; Evaluation took:
-;   27.28 seconds of real time
-;   27.24 seconds of user run time
-;   0.036 seconds of system run time
-;   87,099,132,000 CPU cycles
-;   [Run times include 0.71 seconds GC run time]
+;   0.24 seconds of real time
+;   0.24 seconds of user run time
+;   0.0 seconds of system run time
+;   771,757,617 CPU cycles
 ;   0 page faults and
-;   2,379,987,200 bytes consed.
+;   0 bytes consed.
 ; 
 =======================================================
-
