@@ -1,0 +1,66 @@
+;   3,376 bytes consed.
+; 
+FIBONACCI 25
+Warning:  TIME form in a non-null environment, forced to interpret.
+Compiling entire form will produce more accurate times.
+
+; Evaluation took:
+;   0.22 seconds of real time
+;   0.224 seconds of user run time
+;   0.0 seconds of system run time
+;   708,373,131 CPU cycles
+;   [Run times include 0.01 seconds GC run time]
+;   0 page faults and
+;   19,348,192 bytes consed.
+; 
+=======================================================
+TAIL REC FIBONACCI 30
+Warning:  TIME form in a non-null environment, forced to interpret.
+Compiling entire form will produce more accurate times.
+
+; Evaluation took:
+;   0.0 seconds of real time
+;   0.0 seconds of user run time
+;   0.0 seconds of system run time
+;   168,971 CPU cycles
+;   0 page faults and
+;   4,096 bytes consed.
+; 
+FIBONACCI 30
+Warning:  TIME form in a non-null environment, forced to interpret.
+Compiling entire form will produce more accurate times.
+
+; Evaluation took:
+;   2.46 seconds of real time
+;   2.452 seconds of user run time
+;   0.0 seconds of system run time
+;   7,835,706,604 CPU cycles
+;   [Run times include 0.06 seconds GC run time]
+;   0 page faults and
+;   214,575,608 bytes consed.
+; 
+=======================================================
+TAIL REC FIBONACCI 35
+Warning:  TIME form in a non-null environment, forced to interpret.
+Compiling entire form will produce more accurate times.
+
+; Evaluation took:
+;   0.0 seconds of real time
+;   0.0 seconds of user run time
+;   0.0 seconds of system run time
+;   195,415 CPU cycles
+;   0 page faults and
+;   4,816 bytes consed.
+; 
+FIBONACCI 35
+Warning:  TIME form in a non-null environment, forced to interpret.
+Compiling entire form will produce more accurate times.
+; No value
+; Evaluation took:
+;   27.0 seconds of real time
+;   26.972 seconds of user run time
+;   0.032 seconds of system run time
+;   86,213,935,462 CPU cycles
+;   [Run times include 0.63 seconds GC run time]
+;   0 page faults and
+;   2,379,986,504 bytes consed.
