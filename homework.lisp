@@ -1,8 +1,13 @@
 (defun my-replace (e1 e2 L)
   "function will deep replace a member in the list that is eqqual to e1 and replace it with e2"
   (cond ((endp L) nil)
+	  
+	  ;;if first/current member of the list is equal to e1 replace it with e2 put it back with rest of list
 	((equal (first L) e1)(cons e2 (my-replace e1 e2 (rest L))))
+	  
 	((listp (first L)) (cons (my-replace e1 e2 (first L)) (my-replace e1 e2 (rest L))))
+	  
+	  ;;if the current value is not equal to e1 and not a list cons the rest of the list 
 	(t(cons (first L) (my-replace e1 e2 (rest L))))))
 		       
 
