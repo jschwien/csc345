@@ -1,3 +1,15 @@
+
+
+%%% This file has been annotated. All annotations begin with "%%%"
+%%% Homework 1
+%%% Joseph Schwien
+%%% CSC 345
+%%% Professor Wyatt
+
+%%%Compilation times
+
+%%--------------------------------------------------------------------
+
 TAIL REC FIBONACCI 10
 
 ; Evaluation took:
@@ -8,6 +20,14 @@ TAIL REC FIBONACCI 10
 ;   0 page faults and
 ;   0 bytes consed.
 ; 
+%%% This file has been annotated. All annotations begin with "%%%"
+%%% Homework 1
+%%% Joseph Schwien
+%%% CSC 345
+%%% Professor Wyatt
+
+%%%Compilation times
+
 FIBONACCI 10
 
 ; Evaluation took:
