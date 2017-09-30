@@ -1,4 +1,17 @@
 
+
+%%% This file has been annotated. All annotations begin with "%%%"
+%%% Homework 1
+%%% Joseph Schwien
+%%% CSC 345
+%%% Professor Wyatt
+
+%%%Interpreter times
+
+
+
+
+
 TAIL REC FIBONACCI 10
 Warning:  TIME form in a non-null environment, forced to interpret.
 Compiling entire form will produce more accurate times.
