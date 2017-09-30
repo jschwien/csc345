@@ -34,16 +34,17 @@
 "this function will use tail recursion to evaluate the fibonacci sequence"
 	
 ;;have auxilary function that will hold accumulator values and current value
-  (labels((fibonacci-extra (oneacc twoacc current)
+  (labels((fibonacci-extra (oneacc twoacc value)
 
 		;; checks for base case first, if current value is larger then 3 we ad accumulators 
 	    (cond((eql current 1) 0)
 		 ((eql current 2) 1)
 		 ((eql current 3)(+ oneacc twoacc))
 
-		   ;;Will recursively call itself until ir reaches its base case
-		 ((fibonacci-extra (+ oneacc twoacc) oneacc (- current 1))))))
-;;call au
+		   ;;Will recursively call itself until ir reaches its base case but will now use accumulator to get better performance
+		 ((fibonacci-extra (+ oneacc twoacc) oneacc (- value 1))))))
+	 
+;;calls the auxillary function and sets the values to 1 and 0 which will be defined throughout the function
 (fibonacci-extra 1 0 n)))
 
 
