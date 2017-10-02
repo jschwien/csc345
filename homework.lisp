@@ -37,14 +37,14 @@
   (labels((fibonacci-extra (oneacc twoacc value)
 
 		;; checks for base case first, if current value is larger then 3 we ad accumulators 
-	    (cond((eql current 1) 0)
-		 ((eql current 2) 1)
-		 ((eql current 3)(+ oneacc twoacc))
+	    (cond((eql value 1) 0)
+		 ((eql value 2) 1)
+		 ((eql value 3)(+ oneacc twoacc))
 
 		   ;;Will recursively call itself until ir reaches its base case but will now use accumulator to get better performance
 		 ((fibonacci-extra (+ oneacc twoacc) oneacc (- value 1))))))
 	 
-;;calls the auxillary function and sets the values to 1 and 0 which will be defined throughout the function
+;;calls the auxillary function and defines the values to 1, 0 and n which will be defined throughout the function
 (fibonacci-extra 1 0 n)))
 
 
