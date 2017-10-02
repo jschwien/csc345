@@ -11,7 +11,7 @@
 	  ;;if first/current member of the list is equal to e1 replace it with e2 put it back with rest of list
 	((equal (first L) e1)(cons e2 (my-replace e1 e2 (rest L))))
 	  
-	  ;; if a member of the list is a list it self we cons whats on the list with the current list
+	  ;; if a member of the list is a list itself we cons whats on the list with the current list
 	((listp (first L)) (cons (my-replace e1 e2 (first L)) (my-replace e1 e2 (rest L))))
 	  
 	  ;;if the current value is not equal to e1 and not a list cons the rest of the list 
