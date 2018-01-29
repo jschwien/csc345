@@ -1,1 +1,46 @@
-
+-%%% This file has been annotated. All annotations begin with "%%%"
+ -%%% Homework 2
+ -%%% Joseph Schwien
+ -%%% CSC 345
+ -%%% Professor Wyatt
+ -
+ -%% Problem 1 - MY-REPLACE
+ -
+ -CL-USER> (my-replace '(a) '(x) '(a (a) (b (a))))		
+ -(A (X) (B (X)))
+ -CL-USER> (my-replace '(a) '(x) '(a ((a) b (a)) b a))
+ -(A ((X) B (X)) B A)
+ -CL-USER> (my-replace 'a '(x y (z)) '(a (a b (a)) b a))
+ -((X Y (Z)) ((X Y (Z)) B ((X Y (Z)))) B (X Y (Z)))
+ -CL-USER> (my-replace '(x) '(a) '(x (a) (x) ((x) g (x)b)a b))
+ -(X (A) (A) ((A) G (A) B) A B)
+ -
+ -
+ -
+ -
+ -
+ -%%%Problem 2 - FIBONACCI
+ -
+ -CL-USER> (fibonacci 3) 				
+ -1
+ -CL-USER> (fibonacci 8)				
+ -13
+ -CL-USER> (fibonacci 12)
+ -89
+ -
+ -
+ -
+ -
+ -%%%Problem 2 - FIBONACCI TAIL RECURSION
+ -
+ -CL-USER> (fibonacci-TR 3)			
+ -1
+ -CL-USER> (fibonacci-TR 5)			
+ -3
+ -CL-USER> (fibonacci-TR 15)
+ -377
+ -
+ -
+ -
+ -
+ -
