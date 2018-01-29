@@ -1,2 +1,145 @@
-
+%%% This file has been annotated. All annotations begin with "%%%"
+ -%%% Homework 2
+ -%%% Joseph Schwien
+ -%%% CSC 345
+ -%%% Professor Wyatt
+ -
+ -%%%Compilation times
+ -
+ -%%--------------------------------------------------------------------
+ -
+ -TAIL REC FIBONACCI 10
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   1,875 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -%%% This file has been annotated. All annotations begin with "%%%"
+ -%%% Homework 1
+ -%%% Joseph Schwien
+ -%%% CSC 345
+ -%%% Professor Wyatt
+ -
+ -%%%Compilation times
+ -
+ -FIBONACCI 10
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   7,421 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -=======================================================
+ -TAIL REC FIBONACCI 15
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   1,840 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -FIBONACCI 15
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   52,608 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -=======================================================
+ -TAIL REC FIBONACCI 20
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   1,703 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -FIBONACCI 20
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   566,823 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -=======================================================
+ -TAIL REC FIBONACCI 25
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   1,876 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -FIBONACCI 25
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.004 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   7,986,173 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -=======================================================
+ -TAIL REC FIBONACCI 30
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   2,604 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -FIBONACCI 30
+ -
+ -; Evaluation took:
+ -;   0.03 seconds of real time
+ -;   0.02 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   69,593,775 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -=======================================================
+ -TAIL REC FIBONACCI 35
+ -
+ -; Evaluation took:
+ -;   0.0 seconds of real time
+ -;   0.0 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   3,290 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -FIBONACCI 35
+ -
+ -; Evaluation took:
+ -;   0.24 seconds of real time
+ -;   0.24 seconds of user run time
+ -;   0.0 seconds of system run time
+ -;   771,757,617 CPU cycles
+ -;   0 page faults and
+ -;   0 bytes consed.
+ -; 
+ -=======================================================
 
